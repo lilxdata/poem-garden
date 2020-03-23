@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-//import {frohman} from './constants'
+
 import kim from './kim.jpg';
 import dominique from './dominique.jpg';
 import unrest from './unrest.png';
@@ -76,22 +75,5 @@ function AppRouter() {
   );
 }
 
-// function App() {
-//   return (
-//     <div className="App">
-//         <a
-//           className="App-link"
-//           href="./a-womans-place.html"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//         <div className="button" onClick="parent.location='./a-womans-place.html">
-//           here have a poemmmmm
-//         </div>
-//           here, have a poem
-//         </a>
-//     </div>
-//   );
-// }
 
 export default AppRouter;
